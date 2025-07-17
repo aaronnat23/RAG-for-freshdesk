@@ -1,0 +1,26 @@
+# Core Streamlit and Web Framework
+streamlit>=1.32.0
+requests>=2.31.0
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# AI and Machine Learning
+google-generativeai>=0.3.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+
+# OCR and Image Processing
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+Pillow>=10.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# Optional: For better performance (uncomment if needed)
+# torch>=2.0.0  # If you want GPU support for sentence-transformers
+# faiss-gpu>=1.7.4  # If you have NVIDIA GPU and want GPU acceleration
